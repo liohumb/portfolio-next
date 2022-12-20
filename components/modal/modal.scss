@@ -1,0 +1,118 @@
+@use "assets/styles/variables" as v;
+
+.modal {
+  position: fixed;
+  top: 0;
+  right: -40vw;
+  bottom: 0;
+  width: 40vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 6rem;
+  background: v.$dark-color;
+  transition: all .7s cubic-bezier(.42,.97,.52,1.49);
+
+  @media (max-width: 1024px) {
+    right: -60vw;
+    width: 60vw;
+  }
+
+  @media (max-width: 768px) {
+    top: -125vh;
+    left: 0;
+    width: 100vw;
+    height: 125vh;
+  }
+
+  &__active {
+    right: -10vw;
+    transition: all .7s cubic-bezier(.42,.97,.52,1.49);
+
+    @media (max-width: 768px) {
+      top: -15vh;
+    }
+  }
+
+  &__menu {
+    width: 50%;
+    transition-delay: .7s;
+
+
+    @media (max-width: 768px) {
+      width: 100%;
+      text-align: center;
+    }
+
+    &-link {
+      font-family: v.$title-font;
+      font-size: 5rem;
+      color: white;
+      text-align: center;
+    }
+
+    &-home {
+      transition: all .2s cubic-bezier(.42,.97,.52,1.49);
+
+      &--active {
+        transform: rotate(10deg);
+        transition: all .2s cubic-bezier(.42,.97,.52,1.49);
+        transition-delay: .7s;
+
+        &:hover {
+          transform: rotate(0deg);
+          transition-delay: .1s;
+        }
+      }
+    }
+
+    &-about {
+      transition: all .2s cubic-bezier(.42,.97,.52,1.49);
+
+      &--active {
+        transform: rotate(-5deg);
+        transition: all .2s cubic-bezier(.42,.97,.52,1.49);
+        transition-delay: .7s;
+        margin: 0 0 1rem 0;
+
+        &:hover {
+          transform: rotate(0deg);
+          transition-delay: .1s;
+        }
+      }
+    }
+
+    &-work {
+      transition: all .2s cubic-bezier(.42,.97,.52,1.49);
+
+      &--active {
+        transform: rotate(15deg);
+        transition: all .2s cubic-bezier(.42,.97,.52,1.49);
+        transition-delay: .7s;
+        margin: 2rem 0 0 0;
+
+        &:hover {
+          transform: rotate(0deg);
+          transition-delay: .1s;
+        }
+      }
+    }
+
+    &-contact {
+      transition: all .2s cubic-bezier(.42,.97,.52,1.49);
+
+      &--active {
+        transform: rotate(-10deg);
+        transition: all .2s cubic-bezier(.42,.97,.52,1.49);
+        transition-delay: .7s;
+
+        &:hover {
+          transform: rotate(0deg);
+          transition-delay: .1s;
+        }
+      }
+    }
+  }
+}

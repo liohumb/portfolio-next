@@ -1,0 +1,98 @@
+/* VARIABLES */
+@use "variables" as v;
+
+/* FONTS */
+@font-face {
+  font-family: 'Olegos';
+  src: url('../fonts/Olegos/OlegosRegular.woff2') format('woff2'),
+  url('../fonts/Olegos/OlegosRegular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Savate';
+  src: url('../fonts/Savate/savate-regular-webfont.eot');
+  src: url('../fonts/Savate/savate-regular-webfont.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Savate/savate-regular-webfont.woff2') format('woff2'),
+  url('../fonts/Savate/savate-regular-webfont.woff') format('woff'),
+  url('../fonts/Savate/savate-regular-webfont.ttf') format('truetype'),
+  url('../fonts/Savate/savate-regular-webfont.svg#savateregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+/* DEFAULT */
+* {
+  margin: 0;
+  box-sizing: border-box;
+
+  &:before,
+  &:after {
+    box-sizing: border-box;
+  }
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+input,
+textarea {
+    &:focus {
+        outline: none;
+    }
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+img,
+video,
+canvas,
+svg {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  background: none;
+  border: none;
+}
+
+ul,
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
