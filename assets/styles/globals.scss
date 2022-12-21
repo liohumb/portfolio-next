@@ -3,15 +3,6 @@
 
 /* FONTS */
 @font-face {
-  font-family: 'Olegos';
-  src: url('../fonts/Olegos/OlegosRegular.woff2') format('woff2'),
-  url('../fonts/Olegos/OlegosRegular.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
   font-family: 'Savate';
   src: url('../fonts/Savate/savate-regular-webfont.eot');
   src: url('../fonts/Savate/savate-regular-webfont.eot?#iefix') format('embedded-opentype'),
@@ -21,7 +12,33 @@
   url('../fonts/Savate/savate-regular-webfont.svg#savateregular') format('svg');
   font-weight: normal;
   font-style: normal;
+}
 
+@font-face {
+  font-family: 'Typewriter';
+  src: url('../fonts/Typewriter/JMHTypewriter-Black.woff2') format('woff2'),
+  url('../fonts/Typewriter/JMHTypewriter-Black.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Typewriter';
+  src: url('../fonts/Typewriter/JMHTypewriter-Thin.woff2') format('woff2'),
+  url('../fonts/Typewriter/JMHTypewriter-Thin.woff') format('woff');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Typewriter';
+  src: url('../fonts/Typewriter/JMHTypewriter-Bold.woff2') format('woff2'),
+  url('../fonts/Typewriter/JMHTypewriter-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
 }
 
 /* DEFAULT */
@@ -40,6 +57,7 @@
 }
 
 html {
+  font-family: v.$text-font;
   font-size: 62.5%;
   scroll-behavior: smooth;
 }
