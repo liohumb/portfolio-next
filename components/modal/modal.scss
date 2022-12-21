@@ -1,4 +1,4 @@
-@use "assets/styles/variables" as v;
+@use "../../assets/styles/variables" as v;
 
 .modal {
   position: fixed;
@@ -12,7 +12,7 @@
   align-items: center;
   justify-content: center;
   gap: 6rem;
-  background: v.$dark-color;
+  z-index: 2;
   transition: all .7s cubic-bezier(.42,.97,.52,1.49);
 
   @media (max-width: 1024px) {

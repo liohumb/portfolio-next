@@ -2,7 +2,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 import Modal from '../../components/modal/Modal'
 
-import logo from '../../assets/images/logo.png'
+import logo from '../../public/images/logo.png'
 import {useState} from 'react'
 
 export default function Nav() {
@@ -17,7 +17,7 @@ export default function Nav() {
             <header className="nav">
                 <button className="nav__button" onClick={() => handleShow()} title="bouton pour afficher le menu">
                     <Image src={logo}
-                           alt="Logo deu portfolio de Lionel Humbert"
+                           alt="Logo deu portfolio de Lionel Humbert" priority={true}
                            className="nav__button-image"/>
                 </button>
             </header>

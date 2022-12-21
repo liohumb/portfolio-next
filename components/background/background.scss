@@ -1,0 +1,22 @@
+@use "assets/styles/variables" as v;
+
+.background {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  cursor: none;
+  z-index: 1;
+
+  &__image {
+    width: 2.5rem;
+    height: 2.5rem;
+    opacity: .1;
+    transition: all .1s linear;
+
+    &:hover {
+      opacity: 1;
+    }
+  }
+}
