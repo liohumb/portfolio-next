@@ -9,12 +9,6 @@ export default function Modal({active, rotate}) {
                     accueil
                 </Link>
             </li>
-            <li className={`modal__menu modal__menu-about--${rotate}`}>
-                <Link href="/#about"
-                      className="modal__menu-link">
-                    à propos
-                </Link>
-            </li>
             <li className={`modal__menu modal__menu-work--${rotate}`}>
                 <Link href="/#work"
                       className="modal__menu-link">
