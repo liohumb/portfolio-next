@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "deploy": "vercel --prod"
   },
   "dependencies": {
     "@next/font": "13.0.7",
@@ -16,7 +17,8 @@
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "sass": "^1.57.0",
-    "swiper": "^8.4.5"
+    "swiper": "^8.4.5",
+    "vercel": "^28.10.0"
   },
   "devDependencies": {
     "next-transpile-modules": "^10.0.0"
