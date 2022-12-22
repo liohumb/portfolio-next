@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Nav from '../navigations/nav/Nav'
 import Hero from '../containers/hero/Hero'
+import Works from '../containers/works/Works'
 
 export default function Home() {
     return (
@@ -22,6 +23,8 @@ export default function Home() {
             <Nav/>
             {/* HERO SECTION */}
             <Hero/>
+            {/*WORKS SECTION*/}
+            <Works/>
         </>
     )
 }
