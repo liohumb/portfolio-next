@@ -1,0 +1,23 @@
+@use "assets/styles/variables" as v;
+
+.slider {
+  width: 100%;
+  height: 40vh;
+  padding: 4rem;
+
+  &__swiper {
+    width: 100%;
+    height: 100%;
+
+    @media (max-width: 425px) {
+      overflow: visible!important;
+    }
+
+    &-image {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 1rem;
+    }
+  }
+}

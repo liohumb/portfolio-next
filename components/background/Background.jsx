@@ -35,166 +35,160 @@ export default function Background() {
 
     return (
         <div className="background">
-            {brands.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt={brand.name} className="background__image"/>)}
-            {brands1.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt={brand.name} className="background__image"/>)}
-            {brands2.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt={brand.name} className="background__image"/>)}
-            {brands3.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt={brand.name} className="background__image"/>)}
-            {brands4.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt={brand.name} className="background__image"/>)}
-            {brands5.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt={brand.name} className="background__image"/>)}
-            {brands6.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt={brand.name} className="background__image"/>)}
-            {brands7.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt={brand.name} className="background__image"/>)}
-            {brands8.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt={brand.name} className="background__image"/>)}
-            {brands9.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt={brand.name} className="background__image"/>)}
-            {brands.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt={brand.name} className="background__image"/>)}
-            {brands1.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt={brand.name} className="background__image"/>)}
-            {brands2.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt={brand.name} className="background__image"/>)}
-            {brands3.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt={brand.name} className="background__image"/>)}
-            {brands4.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt={brand.name} className="background__image"/>)}
-            {brands5.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt={brand.name} className="background__image"/>)}
-            {brands6.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt={brand.name} className="background__image"/>)}
-            {brands7.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt={brand.name} className="background__image"/>)}
-            {brands8.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt={brand.name} className="background__image"/>)}
-            {brands9.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt={brand.name} className="background__image"/>)}
-            {brands.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt={brand.name} className="background__image"/>)}
-            {brands1.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt={brand.name} className="background__image"/>)}
-            {brands2.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt={brand.name} className="background__image"/>)}
-            {brands3.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt={brand.name} className="background__image"/>)}
-            {brands4.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt={brand.name} className="background__image"/>)}
-            {brands5.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt={brand.name} className="background__image"/>)}
-            {brands6.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt={brand.name} className="background__image"/>)}
-            {brands7.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt={brand.name} className="background__image"/>)}
-            {brands8.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt={brand.name} className="background__image"/>)}
-            {brands9.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt={brand.name} className="background__image"/>)}
-            {brands.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt={brand.name} className="background__image"/>)}
-            {brands1.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt={brand.name} className="background__image"/>)}
-            {brands2.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt={brand.name} className="background__image"/>)}
-            {brands3.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt={brand.name} className="background__image"/>)}
-            {brands4.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt={brand.name} className="background__image"/>)}
-            {brands5.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt={brand.name} className="background__image"/>)}
-            {brands6.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt={brand.name} className="background__image"/>)}
-            {brands7.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt={brand.name} className="background__image"/>)}
-            {brands8.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt={brand.name} className="background__image"/>)}
-            {brands9.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt={brand.name} className="background__image"/>)}
-            {brands.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt={brand.name} className="background__image"/>)}
-            {brands1.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt={brand.name} className="background__image"/>)}
-            {brands2.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt={brand.name} className="background__image"/>)}
-            {brands3.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt={brand.name} className="background__image"/>)}
-            {brands4.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt={brand.name} className="background__image"/>)}
-            {brands5.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt={brand.name} className="background__image"/>)}
-            {brands6.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt={brand.name} className="background__image"/>)}
-            {brands7.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt={brand.name} className="background__image"/>)}
-            {brands8.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt={brand.name} className="background__image"/>)}
-            {brands9.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt={brand.name} className="background__image"/>)}
-            {brands.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt={brand.name} className="background__image"/>)}
-            {brands1.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt={brand.name} className="background__image"/>)}
-            {brands2.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt={brand.name} className="background__image"/>)}
-            {brands3.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt={brand.name} className="background__image"/>)}
-            {brands4.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt={brand.name} className="background__image"/>)}
-            {brands5.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt={brand.name} className="background__image"/>)}
-            {brands6.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt={brand.name} className="background__image"/>)}
-            {brands7.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt={brand.name} className="background__image"/>)}
-            {brands8.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt={brand.name} className="background__image"/>)}
-            {brands9.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt={brand.name} className="background__image"/>)}
-            {brands.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt={brand.name} className="background__image"/>)}
-            {brands1.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt={brand.name} className="background__image"/>)}
-            {brands2.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt={brand.name} className="background__image"/>)}
-            {brands3.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt={brand.name} className="background__image"/>)}
-            {brands4.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt={brand.name} className="background__image"/>)}
-            {brands5.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt={brand.name} className="background__image"/>)}
-            {brands6.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt={brand.name} className="background__image"/>)}
-            {brands7.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt={brand.name} className="background__image"/>)}
-            {brands8.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt={brand.name} className="background__image"/>)}
-            {brands9.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt={brand.name} className="background__image"/>)}
-            {brands.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt={brand.name} className="background__image"/>)}
-            {brands1.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt={brand.name} className="background__image"/>)}
-            {brands2.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt={brand.name} className="background__image"/>)}
-            {brands3.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt={brand.name} className="background__image"/>)}
-            {brands4.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt={brand.name} className="background__image"/>)}
-            {brands5.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt={brand.name} className="background__image"/>)}
-            {brands6.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt={brand.name} className="background__image"/>)}
-            {brands7.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt={brand.name} className="background__image"/>)}
-            {brands8.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt={brand.name} className="background__image"/>)}
-            {brands9.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt={brand.name} className="background__image"/>)}
-            {brands.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt={brand.name} className="background__image"/>)}
-            {brands1.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt={brand.name} className="background__image"/>)}
-            {brands2.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt={brand.name} className="background__image"/>)}
-            {brands3.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt={brand.name} className="background__image"/>)}
-            {brands4.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt={brand.name} className="background__image"/>)}
-            {brands5.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt={brand.name} className="background__image"/>)}
-            {brands6.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt={brand.name} className="background__image"/>)}
-            {brands7.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt={brand.name} className="background__image"/>)}
-            {brands8.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt={brand.name} className="background__image"/>)}
-            {brands9.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt={brand.name} className="background__image"/>)}
-            {brands.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt={brand.name} className="background__image"/>)}
-            {brands1.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt={brand.name} className="background__image"/>)}
-            {brands2.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt={brand.name} className="background__image"/>)}
-            {brands3.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt={brand.name} className="background__image"/>)}
-            {brands4.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt={brand.name} className="background__image"/>)}
-            {brands5.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt={brand.name} className="background__image"/>)}
-            {brands6.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt={brand.name} className="background__image"/>)}
-            {brands7.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt={brand.name} className="background__image"/>)}
-            {brands8.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt={brand.name} className="background__image"/>)}
-            {brands9.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt={brand.name} className="background__image"/>)}
-            {brands.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt={brand.name} className="background__image"/>)}
-            {brands1.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt={brand.name} className="background__image"/>)}
-            {brands2.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt={brand.name} className="background__image"/>)}
-            {brands3.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt={brand.name} className="background__image"/>)}
-            {brands4.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt={brand.name} className="background__image"/>)}
-            {brands5.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt={brand.name} className="background__image"/>)}
-            {brands6.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt={brand.name} className="background__image"/>)}
-            {brands7.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt={brand.name} className="background__image"/>)}
-            {brands8.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt={brand.name} className="background__image"/>)}
-            {brands9.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt={brand.name} className="background__image"/>)}
-            {brands.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt={brand.name} className="background__image"/>)}
-            {brands1.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt={brand.name} className="background__image"/>)}
-            {brands2.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt={brand.name} className="background__image"/>)}
-            {brands3.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt={brand.name} className="background__image"/>)}
-            {brands4.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt={brand.name} className="background__image"/>)}
-            {brands5.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt={brand.name} className="background__image"/>)}
-            {brands6.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt={brand.name} className="background__image"/>)}
-            {brands7.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt={brand.name} className="background__image"/>)}
-            {brands8.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt={brand.name} className="background__image"/>)}
-            {brands9.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt={brand.name} className="background__image"/>)}
-            {brands.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt={brand.name} className="background__image"/>)}
-            {brands1.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt={brand.name} className="background__image"/>)}
-            {brands2.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt={brand.name} className="background__image"/>)}
-            {brands3.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt={brand.name} className="background__image"/>)}
-            {brands4.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt={brand.name} className="background__image"/>)}
-            {brands5.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt={brand.name} className="background__image"/>)}
-            {brands6.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt={brand.name} className="background__image"/>)}
-            {brands7.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt={brand.name} className="background__image"/>)}
-            {brands8.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt={brand.name} className="background__image"/>)}
-            {brands9.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt={brand.name} className="background__image"/>)}
-            {brands.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt={brand.name} className="background__image"/>)}
-            {brands1.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt={brand.name} className="background__image"/>)}
-            {brands2.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt={brand.name} className="background__image"/>)}
-            {brands3.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt={brand.name} className="background__image"/>)}
-            {brands4.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt={brand.name} className="background__image"/>)}
-            {brands5.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt={brand.name} className="background__image"/>)}
-            {brands6.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt={brand.name} className="background__image"/>)}
-            {brands7.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt={brand.name} className="background__image"/>)}
-            {brands8.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt={brand.name} className="background__image"/>)}
-            {brands9.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt={brand.name} className="background__image"/>)}
-            {brands.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt={brand.name} className="background__image"/>)}
-            {brands1.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt={brand.name} className="background__image"/>)}
-            {brands2.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt={brand.name} className="background__image"/>)}
-            {brands3.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt={brand.name} className="background__image"/>)}
-            {brands4.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt={brand.name} className="background__image"/>)}
-            {brands5.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt={brand.name} className="background__image"/>)}
-            {brands6.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt={brand.name} className="background__image"/>)}
-            {brands7.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt={brand.name} className="background__image"/>)}
-            {brands8.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt={brand.name} className="background__image"/>)}
-            {brands9.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt={brand.name} className="background__image"/>)}
-            {brands.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt={brand.name} className="background__image"/>)}
-            {brands1.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt={brand.name} className="background__image"/>)}
-            {brands2.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt={brand.name} className="background__image"/>)}
-            {brands3.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt={brand.name} className="background__image"/>)}
-            {brands4.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt={brand.name} className="background__image"/>)}
-            {brands5.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt={brand.name} className="background__image"/>)}
-            {brands6.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt={brand.name} className="background__image"/>)}
-            {brands7.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt={brand.name} className="background__image"/>)}
-            {brands8.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt={brand.name} className="background__image"/>)}
-            {brands9.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt={brand.name} className="background__image"/>)}
+            {brands.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt=" " className="background__image"/>)}
+            {brands1.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt=" " className="background__image"/>)}
+            {brands2.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt=" " className="background__image"/>)}
+            {brands3.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt=" " className="background__image"/>)}
+            {brands4.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt=" " className="background__image"/>)}
+            {brands5.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt=" " className="background__image"/>)}
+            {brands6.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt=" " className="background__image"/>)}
+            {brands7.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt=" " className="background__image"/>)}
+            {brands8.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt=" " className="background__image"/>)}
+            {brands9.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt=" " className="background__image"/>)}
+            {brands1.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt=" " className="background__image"/>)}
+            {brands2.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt=" " className="background__image"/>)}
+            {brands3.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt=" " className="background__image"/>)}
+            {brands4.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt=" " className="background__image"/>)}
+            {brands5.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt=" " className="background__image"/>)}
+            {brands6.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt=" " className="background__image"/>)}
+            {brands7.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt=" " className="background__image"/>)}
+            {brands8.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt=" " className="background__image"/>)}
+            {brands9.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt=" " className="background__image"/>)}
+            {brands1.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt=" " className="background__image"/>)}
+            {brands2.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt=" " className="background__image"/>)}
+            {brands3.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt=" " className="background__image"/>)}
+            {brands4.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt=" " className="background__image"/>)}
+            {brands5.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt=" " className="background__image"/>)}
+            {brands6.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt=" " className="background__image"/>)}
+            {brands7.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt=" " className="background__image"/>)}
+            {brands8.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt=" " className="background__image"/>)}
+            {brands9.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt=" " className="background__image"/>)}
+            {brands1.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt=" " className="background__image"/>)}
+            {brands2.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt=" " className="background__image"/>)}
+            {brands3.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt=" " className="background__image"/>)}
+            {brands4.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt=" " className="background__image"/>)}
+            {brands5.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt=" " className="background__image"/>)}
+            {brands6.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt=" " className="background__image"/>)}
+            {brands7.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt=" " className="background__image"/>)}
+            {brands8.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt=" " className="background__image"/>)}
+            {brands9.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt=" " className="background__image"/>)}
+            {brands1.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt=" " className="background__image"/>)}
+            {brands2.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt=" " className="background__image"/>)}
+            {brands3.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt=" " className="background__image"/>)}
+            {brands4.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt=" " className="background__image"/>)}
+            {brands5.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt=" " className="background__image"/>)}
+            {brands6.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt=" " className="background__image"/>)}
+            {brands7.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt=" " className="background__image"/>)}
+            {brands8.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt=" " className="background__image"/>)}
+            {brands9.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt=" " className="background__image"/>)}
+            {brands1.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt=" " className="background__image"/>)}
+            {brands2.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt=" " className="background__image"/>)}
+            {brands3.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt=" " className="background__image"/>)}
+            {brands4.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt=" " className="background__image"/>)}
+            {brands5.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt=" " className="background__image"/>)}
+            {brands6.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt=" " className="background__image"/>)}
+            {brands7.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt=" " className="background__image"/>)}
+            {brands8.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt=" " className="background__image"/>)}
+            {brands9.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt=" " className="background__image"/>)}
+            {brands1.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt=" " className="background__image"/>)}
+            {brands2.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt=" " className="background__image"/>)}
+            {brands3.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt=" " className="background__image"/>)}
+            {brands4.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt=" " className="background__image"/>)}
+            {brands5.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt=" " className="background__image"/>)}
+            {brands6.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt=" " className="background__image"/>)}
+            {brands7.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt=" " className="background__image"/>)}
+            {brands8.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt=" " className="background__image"/>)}
+            {brands9.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt=" " className="background__image"/>)}
+            {brands1.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt=" " className="background__image"/>)}
+            {brands2.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt=" " className="background__image"/>)}
+            {brands3.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt=" " className="background__image"/>)}
+            {brands4.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt=" " className="background__image"/>)}
+            {brands5.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt=" " className="background__image"/>)}
+            {brands6.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt=" " className="background__image"/>)}
+            {brands7.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt=" " className="background__image"/>)}
+            {brands8.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt=" " className="background__image"/>)}
+            {brands9.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt=" " className="background__image"/>)}
+            {brands1.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt=" " className="background__image"/>)}
+            {brands2.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt=" " className="background__image"/>)}
+            {brands3.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt=" " className="background__image"/>)}
+            {brands4.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt=" " className="background__image"/>)}
+            {brands5.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt=" " className="background__image"/>)}
+            {brands6.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt=" " className="background__image"/>)}
+            {brands7.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt=" " className="background__image"/>)}
+            {brands8.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt=" " className="background__image"/>)}
+            {brands9.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt=" " className="background__image"/>)}
+            {brands1.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt=" " className="background__image"/>)}
+            {brands2.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt=" " className="background__image"/>)}
+            {brands3.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt=" " className="background__image"/>)}
+            {brands4.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt=" " className="background__image"/>)}
+            {brands5.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt=" " className="background__image"/>)}
+            {brands6.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt=" " className="background__image"/>)}
+            {brands7.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt=" " className="background__image"/>)}
+            {brands8.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt=" " className="background__image"/>)}
+            {brands9.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt=" " className="background__image"/>)}
+            {brands1.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt=" " className="background__image"/>)}
+            {brands2.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt=" " className="background__image"/>)}
+            {brands3.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt=" " className="background__image"/>)}
+            {brands4.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt=" " className="background__image"/>)}
+            {brands5.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt=" " className="background__image"/>)}
+            {brands6.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt=" " className="background__image"/>)}
+            {brands7.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt=" " className="background__image"/>)}
+            {brands8.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt=" " className="background__image"/>)}
+            {brands9.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt=" " className="background__image"/>)}
+            {brands1.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt=" " className="background__image"/>)}
+            {brands2.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt=" " className="background__image"/>)}
+            {brands3.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt=" " className="background__image"/>)}
+            {brands4.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt=" " className="background__image"/>)}
+            {brands5.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt=" " className="background__image"/>)}
+            {brands6.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt=" " className="background__image"/>)}
+            {brands7.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt=" " className="background__image"/>)}
+            {brands8.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt=" " className="background__image"/>)}
+            {brands9.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt=" " className="background__image"/>)}
+            {brands1.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt=" " className="background__image"/>)}
+            {brands2.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt=" " className="background__image"/>)}
+            {brands3.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt=" " className="background__image"/>)}
+            {brands4.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt=" " className="background__image"/>)}
+            {brands5.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt=" " className="background__image"/>)}
+            {brands6.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt=" " className="background__image"/>)}
+            {brands7.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt=" " className="background__image"/>)}
+            {brands8.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt=" " className="background__image"/>)}
+            {brands9.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt=" " className="background__image"/>)}
+            {brands1.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt=" " className="background__image"/>)}
+            {brands2.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt=" " className="background__image"/>)}
+            {brands3.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt=" " className="background__image"/>)}
+            {brands4.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt=" " className="background__image"/>)}
+            {brands5.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt=" " className="background__image"/>)}
+            {brands6.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt=" " className="background__image"/>)}
+            {brands7.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt=" " className="background__image"/>)}
+            {brands8.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt=" " className="background__image"/>)}
+            {brands9.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt=" " className="background__image"/>)}
+            {brands1.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt=" " className="background__image"/>)}
+            {brands2.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt=" " className="background__image"/>)}
+            {brands3.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt=" " className="background__image"/>)}
+            {brands4.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt=" " className="background__image"/>)}
+            {brands5.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt=" " className="background__image"/>)}
+            {brands6.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt=" " className="background__image"/>)}
+            {brands7.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt=" " className="background__image"/>)}
+            {brands8.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt=" " className="background__image"/>)}
+            {brands9.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt=" " className="background__image"/>)}
+            {brands1.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt=" " className="background__image"/>)}
+            {brands2.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt=" " className="background__image"/>)}
+            {brands3.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt=" " className="background__image"/>)}
+            {brands4.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt=" " className="background__image"/>)}
+            {brands5.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt=" " className="background__image"/>)}
+            {brands6.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt=" " className="background__image"/>)}
+            {brands7.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt=" " className="background__image"/>)}
+            {brands8.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt=" " className="background__image"/>)}
+            {brands9.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt=" " className="background__image"/>)}
+            {brands1.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt=" " className="background__image"/>)}
+            {brands2.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt=" " className="background__image"/>)}
+            {brands3.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt=" " className="background__image"/>)}
+            {brands4.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt=" " className="background__image"/>)}
+            {brands5.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt=" " className="background__image"/>)}
+            {brands6.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt=" " className="background__image"/>)}
+            {brands7.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt=" " className="background__image"/>)}
+            {brands8.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt=" " className="background__image"/>)}
+            {brands9.map( ( brand ) => <Image key={brand.id} src={brand.logo} alt=" " className="background__image"/>)}
         </div>
     )
 }
